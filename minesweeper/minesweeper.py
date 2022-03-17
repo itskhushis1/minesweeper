@@ -5,6 +5,7 @@ import re
 # this is so that we can just say "create a new board object", or
 # "dig here", or "render this game for this object"
 class Board:
+    
     def __init__(self, dim_size, num_bombs):
         # let's keep track of these parameters. they'll be helpful later
         self.dim_size = dim_size
